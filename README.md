@@ -1,3 +1,6 @@
+##用ab做个简单的http测试 
+
+```
 time ab -c 200 -n 200 xxx.126.84.48:8080/stream
 This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -46,3 +49,7 @@ Percentage of the requests served within a certain time (ms)
   99%  12616
  100%  12617 (longest request)
 ab -c 200 -n 200 xxx.126.84.48:8080/stream  0.01s user 0.05s system 0% cpu 12.629 total
+
+```
+
+
